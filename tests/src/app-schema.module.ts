@@ -7,7 +7,7 @@ import { PhotoSchemaModule } from './photo/schema/photo-schema.module';
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: '0.0.0.0',
-      port: 3306,
+      port: 3308,
       username: 'root',
       password: 'root',
       database: 'test',
@@ -21,7 +21,7 @@ import { PhotoSchemaModule } from './photo/schema/photo-schema.module';
       name: 'connection_2',
       type: 'postgres',
       host: '0.0.0.0',
-      port: 3306,
+      port: 3308,
       username: 'root',
       password: 'root',
       database: 'test',

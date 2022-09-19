@@ -8,5 +8,5 @@ services:
       POSTGRES_PASSWORD: root
       POSTGRES_DB: test
     ports:
-      - "3306:5432"
+      - "3308:5432"
     restart: always
